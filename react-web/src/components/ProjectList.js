@@ -10,6 +10,7 @@ export default function ProjectList({
             items.map((item, index) => (
                 <Project key={ index }
                     title={ item.title }
+                    skills={ item.skills }
                 />
             ))
         }

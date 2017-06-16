@@ -4,16 +4,20 @@ const router = express.Router()
 
 const projects = [
     {
-        title: 'Portfolio website'
+        title: 'Portfolio website',
+        skills: ['html', 'css', 'design', 'wireframing']
     },
     {
-        title: 'Ruby command line app'
+        title: 'Ruby command line app',
+        skills: ['ruby', 'command line', 'user stories']
     },
     {
-        title: 'Rails two-sided marketplace'
+        title: 'Rails two-sided marketplace',
+        skills: ['ruby', 'rails', 'html', 'css', 'design', 'wireframing', 'user stories']
     },
     {
-        title: 'React + Node.js + MongoDB client project'
+        title: 'React + Node.js + MongoDB client project',
+        skills: ['javascript', 'node.js', 'express', 'react', 'html', 'css', 'design', 'wireframing', 'user stories', 'project management', 'team management']
     }
 ]
 
